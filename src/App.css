@@ -1,0 +1,31 @@
+/* utils classes */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:focus , select{
+    outline: none;
+}
+
+.parent-container{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(255,175,189);
+    background: rgb(53,92,125);
+    background: linear-gradient(90deg, rgba(53,92,125,1) 0%, rgba(108,91,123,1) 50%, rgba(192,108,132,1) 98%);}
+
+.main-container{
+    width: 40%;
+    background-color: rgb(199, 225, 250);
+    padding: 3rem;
+    border-radius: 10px;
+}
